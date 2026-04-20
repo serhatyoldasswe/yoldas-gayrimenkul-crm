@@ -320,3 +320,6 @@ npm run build:frontend   # Frontend production build
 ## 📝 Lisans
 
 Bu proje özel kullanım içindir.
+
+
+![img alt](https://github.com/serhatyoldasswe/yoldas-gayrimenkul-crm/blob/efff5f27f003a32f60b9a7b8ee6ffc23c14d6a31/G%C4%B0R%C4%B0%C5%9E.png)
