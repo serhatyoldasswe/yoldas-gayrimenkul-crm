@@ -323,3 +323,7 @@ Bu proje özel kullanım içindir.
 
 
 ![img alt](https://github.com/serhatyoldasswe/yoldas-gayrimenkul-crm/blob/efff5f27f003a32f60b9a7b8ee6ffc23c14d6a31/G%C4%B0R%C4%B0%C5%9E.png)
+![img alt](https://github.com/serhatyoldasswe/yoldas-gayrimenkul-crm/blob/73efcc12c604f300148cc42a6da34c2d5c2fd1dd/PORTFOY.png)
+![img alt](
+![img alt](
+![img alt](
