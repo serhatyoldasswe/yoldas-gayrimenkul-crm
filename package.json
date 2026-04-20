@@ -1,0 +1,16 @@
+{
+  "name": "yoldas-gayrimenkul",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Yoldaş Gayrimenkul - Emlak Ofisi Yönetim Sistemi",
+  "scripts": {
+    "dev": "concurrently --kill-others --names \"API,WEB\" --prefix-colors \"blue,green\" \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend/YoldasGayrimenkul.API/YoldasGayrimenkul.API && dotnet run --launch-profile https",
+    "dev:frontend": "cd Frontend/yoldas-web && npm run dev",
+    "install:frontend": "cd Frontend/yoldas-web && npm install",
+    "build:frontend": "cd Frontend/yoldas-web && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

@@ -1,0 +1,84 @@
+# ══════════════════════════════════════════════════
+#  Yoldaş Gayrimenkul — .gitignore
+# ══════════════════════════════════════════════════
+
+# ─── Node.js / Frontend ──────────────────────────
+node_modules/
+dist/
+build/
+*.local
+.env
+.env.*
+!.env.example
+
+# Vite
+Frontend/yoldas-web/dist/
+
+# Editor & IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# ─── .NET / Backend ──────────────────────────────
+## Build output
+backend/**/bin/
+backend/**/obj/
+
+## NuGet
+*.nupkg
+**/packages/
+*.nuget.props
+*.nuget.targets
+
+## Visual Studio
+backend/**/.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+## Visual Studio caches & generated files
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Rider
+.idea/
+*.sln.iml
+
+## dotnet user-secrets
+**/appsettings.*.local.json
+
+# ─── Genel ────────────────────────────────────────
+# Test results
+TestResults/
+*.trx
+
+# Coverage
+coverage/
+*.lcov
+*.coveragexml
+
+# Package lock (root monorepo)
+# package-lock.json is kept for reproducibility
